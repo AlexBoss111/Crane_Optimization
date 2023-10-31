@@ -1,5 +1,5 @@
-# Crane_Optimization
-The model minimizes the operation peak power of a group of shore cranes by differing the lift action between them. It used Particle swar Optimization PSO algorithm.
+# Crane_Optimization using PSO
+The model minimizes the operation peak power of a group of shore cranes by differing the lift action between them. It used Particle Swarm Optimization PSO algorithm.
 
 Rationale: One of the most power and energy intensive operations within a port activity is the crane operation. This is because their individual rated power is very high especially in the liffting movement of containers, which happens approx. every 90 seconds. This can be visible in their load diagrams where a spike in power can be clearly seen. This issue is even more exacerbated when groups of cranes operate together side by side and match the liffting of these containers at the same time. The power demand adds up, requiring a huge sudden power demand to the upstream transformers if no managment is done. A theoretical resolution for this is presented in this script that minimizes the peak power by rearanging, delaying of shiffting the liffting operation of the containers by a few seconds. The practical implementation of this delay start algorithm is beyond the scope of the work. The replicability of it however can have other used, such as peak EV (HDV) charging demand in common High power charging clusters or other applications.
 
